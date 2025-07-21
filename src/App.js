@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import AirspeedGauge from './gauges/AirspeedGauge';
+import AttitudeGauge from './gauges/AttitudeGauge';
+import AltimeterGauge from './gauges/AltimeterGauge';
+import TurnCoordinator from './gauges/TurnCoordinator';
+import HeadingGauge from './gauges/HeadingGauge';
+import VSI from './gauges/VSI';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="dashboard-grid">
+      <AirspeedGauge />
+      <AttitudeGauge />
+      <AltimeterGauge />
+      <TurnCoordinator />
+      <HeadingGauge />
+      <VSI />
     </div>
   );
 }
