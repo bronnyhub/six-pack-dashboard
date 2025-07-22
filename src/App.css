@@ -4,9 +4,11 @@
 
 .dashboard-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px;
-  padding: 40px;
-  background-color: rgba(155, 160, 215, 0.8);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: rgba(195, 195, 195, 0.8);
   min-height: 100vh;
+  justify-content: center; /* centers grid if items are smaller than columns */
+  align-content: start;
+  padding: 10rem;
 }

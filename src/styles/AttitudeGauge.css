@@ -1,0 +1,59 @@
+.gauge {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.gauge:hover {
+  transform: scale(1.03);
+}
+
+.gauge-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.gauge-value {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Attitude indicator styles */
+.horizon-wrapper {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #444;
+  margin-bottom: 0.5rem;
+  border: 2px solid #999;
+}
+
+.horizon {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  background: linear-gradient(to bottom, #00aaff 50%, #aa5500 50%);
+  transition: top 0.3s ease;
+}
+
+.center-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: white;
+  z-index: 2;
+}

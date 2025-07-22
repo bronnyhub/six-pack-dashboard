@@ -1,9 +1,9 @@
-import AirspeedGauge from './gauges/AirspeedGauge';
-import AttitudeGauge from './gauges/AttitudeGauge';
-import AltimeterGauge from './gauges/AltimeterGauge';
-import TurnCoordinator from './gauges/TurnCoordinator';
-import HeadingGauge from './gauges/HeadingGauge';
-import VSI from './gauges/VSI';
+import AirspeedGauge from './components/AirspeedGauge';
+import AttitudeGauge from './components/AttitudeGauge';
+import AltimeterGauge from './components/AltimeterGauge';
+import TurnCoordinator from './components/TurnCoordinator';
+import HeadingGauge from './components/HeadingGauge';
+import VSI from './components/VSI';
 import './App.css';
 
 function App() {
