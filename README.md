@@ -1,6 +1,6 @@
 # Six Basic Aircraft Instrument
 
-<img src="./img/sixpack.png" width='400'> 
+<img src="/img/sixpack.png" width='400'> 
 
 A **React-based cockpit dashboard** featuring a realistic "six-pack" instrument layout for pilots.  
 Originally built as part of my aerospace-themed projects (including a satellite simulator), this app is designed for flexibility — making it easy to adapt beyond aviation into other domains.
